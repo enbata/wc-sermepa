@@ -391,7 +391,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 					if ($lang == "") {
 						$lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
 					}
-                    $customer_language = substr( $lang, 0, 2 );
+					$customer_language = substr( $lang, 0, 2 );
 					switch ( $customer_language ) {
 						case 'es':
 							$language = '001';
