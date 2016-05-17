@@ -388,9 +388,9 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 					$language = '0';
 				} else {
 					$lang = get_locale();
-                    if ($lang == "") {
-                        $lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
-                    }
+					if ($lang == "") {
+						$lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+					}
                     $customer_language = substr( $lang, 0, 2 );
 					switch ( $customer_language ) {
 						case 'es':
