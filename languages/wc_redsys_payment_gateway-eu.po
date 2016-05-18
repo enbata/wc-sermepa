@@ -1,0 +1,339 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC-Redsys_payment_gateway v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 00:50+0100\n"
+"PO-Revision-Date: 2016-05-17 11:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wc_redsys_payment_gateway.php:46
+msgid ""
+"Mcrypt extension is missing. Please, ask your hosting provider to enable it."
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:58
+#, php-format
+msgid ""
+"Please, get a new SHA256 key from your TPV and enter it in the plugin "
+"configuration. | <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:103
+msgid "Credit card (TPV Redsys)"
+msgstr "Redsys bitartez ordaindu txartela erabiliz"
+
+#: wc_redsys_payment_gateway.php:104
+msgid "Pay with credit card using Redsys TPV"
+msgstr "Redsys TPV bitartez txartelarekin ordaindu"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:191 wc_redsys_payment_gateway.php:248
+#: wc_redsys_payment_gateway.php:274 wc_redsys_payment_gateway.php:281
+msgid "Redsys"
+msgstr "Redsys"
+
+#: wc_redsys_payment_gateway.php:192
+msgid ""
+"Redsys works by sending the user to Redsys to enter their payment "
+"information."
+msgstr ""
+"Plugin honek erabiltzailea Redsys pasarelara bideratzen du ordainketa "
+"burutzeko."
+
+#: wc_redsys_payment_gateway.php:193
+msgid ""
+"You'll find previous version (SHA1) <a href=\"https://github.com/jesusangel/"
+"wc-sermepa/archive/88112586ed7b4a90fe55d20f70fcea169c046c0c.zip\" target="
+"\"_blank\">here</a>"
+msgstr ""
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:206
+msgid "Gateway Disabled"
+msgstr "Pasarela desgaitua"
+
+#: wc_redsys_payment_gateway.php:206
+msgid "Redsys does not support your store currency."
+msgstr ""
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:223
+msgid "Enable/Disable"
+msgstr "Gaitu/Desgaitu"
+
+#: wc_redsys_payment_gateway.php:225
+msgid "Choose mode."
+msgstr "TPVaren funtzionamendu modua aukeratu"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:226
+msgid "Enable Redsys"
+msgstr "Redsys gaitu"
+
+#: wc_redsys_payment_gateway.php:230 wc_redsys_payment_gateway.php:232
+msgid "Mode"
+msgstr "Funtzionamendu modua"
+
+#: wc_redsys_payment_gateway.php:234
+msgid "Production"
+msgstr "Produkzioa"
+
+#: wc_redsys_payment_gateway.php:235
+msgid "Test sis-t"
+msgstr "Frogak sis-t ingurunea erabiliz"
+
+#: wc_redsys_payment_gateway.php:236
+msgid "Test sis-d"
+msgstr "Frogak sis-d ingurunea erabiliz"
+
+#: wc_redsys_payment_gateway.php:237
+msgid "Test sis-i"
+msgstr "Frogak sis-i ingurunea erabiliz"
+
+#: wc_redsys_payment_gateway.php:240
+msgid "TVP mode: production or test"
+msgstr ""
+"TPV funtzionamendu modua: produkzioa edo probak (sis-t, sis-d edo sis-i)"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:244
+msgid "Title"
+msgstr "Titulua"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:246
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Honek erabiltzaleak erosketa bukaeran ikusten duen titulua kontrolatzen du."
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:251
+msgid "Description"
+msgstr "Azalpena"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:253
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+"Honek erabiltzaileek erosketa bukaeran ikusten duten azalpena kontrolatzen "
+"du."
+
+#: wc_redsys_payment_gateway.php:255
+msgid "Payment gateway with Redsys credit card."
+msgstr "Ordainketa pasarelaren (Redsys) bitartez, txartela erabiliz ordaindu."
+
+#: wc_redsys_payment_gateway.php:258
+msgid "Allowed payment methods"
+msgstr "Onartutako ordainketa moduak"
+
+#: wc_redsys_payment_gateway.php:260
+msgid "Allowed payment methods."
+msgstr "Onartutako ordainketa moduak."
+
+#: wc_redsys_payment_gateway.php:263
+msgid "All"
+msgstr "Denak"
+
+#: wc_redsys_payment_gateway.php:264
+msgid "Only credit card"
+msgstr "Txartela bakarrik"
+
+#: wc_redsys_payment_gateway.php:265
+msgid "Credit card and Iupay"
+msgstr "Txartela eta Iupay"
+
+#: wc_redsys_payment_gateway.php:270
+msgid "Owner name"
+msgstr "Denda jabearen izena"
+
+#: wc_redsys_payment_gateway.php:272
+msgid "Name and surname of the owner."
+msgstr "Jabearen izen eta abizenak"
+
+#: wc_redsys_payment_gateway.php:277
+msgid "Commerce name"
+msgstr "Dendaren zenbakia (FUC)"
+
+#: wc_redsys_payment_gateway.php:279
+msgid "The commerce name."
+msgstr "Dendaren zenbakia (FUC)"
+
+#: wc_redsys_payment_gateway.php:284
+msgid "Commerce number (FUC)"
+msgstr "Dendaren zenbakia (FUC)"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:286
+msgid ""
+"Please enter your Redsys commerce number (FUC); this is needed in order to "
+"take payment."
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:291
+msgid "Terminal number"
+msgstr "Terminal zenbakia"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:293
+msgid ""
+"Please enter your Redsys terminal number; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:298
+msgid "Currency identifier"
+msgstr "Diruaren identifikatzailea"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:300
+msgid ""
+"Please enter your Redsys currency identifier; this is needed in order to "
+"take payment."
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:322
+msgid "Secret key (SHA-256)"
+msgstr "Gako sekretua"
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:324
+msgid "Please enter your secret key; this is needed in order to take payment."
+msgstr ""
+"Mesedez, adierazi zure Redsys gako sekretua, beharrezkoa da ordainketa jaso "
+"ahal izateko."
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:328
+msgid "Enable languages"
+msgstr "Hizkuntzak aktibatu"
+
+#: wc_redsys_payment_gateway.php:330
+msgid "Shows TPV with customer's language."
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:334
+msgid "Gateway Testing"
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:339
+msgid "Debug Log"
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:341
+msgid "Enable logging"
+msgstr ""
+
+#: wc_redsys_payment_gateway.php:343
+msgid "Log Redsys events, inside <code>woocommerce/logs/redsys.txt</code>"
+msgstr "Registra los eventos del plugin"
+
+#: wc_redsys_payment_gateway.php:378
+msgid "Online order"
+msgstr "Online erosketa"
+
+#: wc_redsys_payment_gateway.php:516
+msgid "Redirecting&hellip;"
+msgstr "Birbideratzen&hellip;"
+
+#: wc_redsys_payment_gateway.php:516
+msgid ""
+"Thank you for your order. We are now redirecting you to Redsys to make "
+"payment."
+msgstr ""
+"Mila esker zure eskariagatik. Orain ordainketa pasarelara bideratuko zaitugu."
+
+# @ wc_redsys_payment_gateway
+#: wc_redsys_payment_gateway.php:543
+msgid "Pay via Redsys"
+msgstr "Redsys erabiliz ordaindu"
+
+#: wc_redsys_payment_gateway.php:544
+msgid "Cancel order &amp; restore cart"
+msgstr "Erosketa ezeztatu"
+
+#: wc_redsys_payment_gateway.php:574
+msgid ""
+"Thank you for your order, please click the button below to pay with Redsys."
+msgstr ""
+"Mila esker zure eskariagatik. Mesedez, klikatu ordaintzeko botoiaren gainean."
+
+#: wc_redsys_payment_gateway.php:673
+#, php-format
+msgid "Validation error: Redsys amounts do not match (amount %s)."
+msgstr "Balidazio errorea: kopuruak ez datoz bat (guztira %s)."
+
+#: wc_redsys_payment_gateway.php:693
+msgid "Redsys payment completed"
+msgstr "Ordainketa eginda"
+
+#: wc_redsys_payment_gateway.php:701 wc_redsys_payment_gateway.php:733
+#, php-format
+msgid "Payment error: code: %s."
+msgstr "Ordainketan errorea, kodea: %s."
+
+#: wc_redsys_payment_gateway.php:727
+msgid "Payment error: bank unavailable."
+msgstr "Ordainketa errorea: bankua ez dago prest."
+
+#: wc_redsys_payment_gateway.php:743
+msgid "Awaiting REDSYS payment"
+msgstr "REDSYS ordainketaren zain"
+
+#: wc_redsys_payment_gateway.php:821
+msgid "Mcrypt extension is not available in this server"
+msgstr ""
+
+# @ wc_redsys_payment_gateway
+#~ msgid "Redsys sandbox"
+#~ msgstr "Zona de pruebas de Redsys"
+
+# @ wc_redsys_payment_gateway
+#, fuzzy
+#~ msgid "Enable Redsys sandbox"
+#~ msgstr "Activar Redsys"
+
+#~ msgid "Redsys sandbox can be used to test payments."
+#~ msgstr "El entorno de pruebas de Rebsys sirve para probar los pagos."
+
+#~ msgid "Enable extended SHA1"
+#~ msgstr "Activar SHA1 ampliado"
+
+#~ msgid "Enable extended SHA1 algorithm."
+#~ msgstr "Activar el algoritmo SHA1 ampliado."
+
+#~ msgid "Invoice Prefix"
+#~ msgstr "Prefijo de factura"
+
+#~ msgid ""
+#~ "Please enter a prefix for your invoice numbers. If you use your Redsys "
+#~ "account for multiple stores ensure this prefix is unqiue as Redsys will "
+#~ "not allow orders with the same invoice number."
+#~ msgstr ""
+#~ "Por favor, introduzca un prefijo para los números de las facturas. Si usa "
+#~ "su cuenta Redsys para varias tiendas, asegúrese de que el prefijo es "
+#~ "único pues Redsys no admite pedidos con el mismo número de factura."
+
+#~ msgid "Submission method"
+#~ msgstr "Método de envio"
+
+#~ msgid "Use form submission method."
+#~ msgstr "Usar envío mediante formulario."
+
+# @ wc_redsys_payment_gateway
+#, fuzzy
+#~ msgid "Shipping options"
+#~ msgstr "Detalles del envío"
